@@ -14,6 +14,7 @@
     --fs-500: 2.2vw;
     --fs-400: 1.25rem;
 
+
     /* font-families */
     --ff-serif: "Bellefair", serif;
     --ff-sans-cond: "Barlow Condensed", sans-serif;
@@ -494,14 +495,9 @@ to{
    .product-text{
     width: 90%;
 }
-   .fs-800{
-       font-size: 4.25rem;
-   }
-   .fs-600{
-       font-size:1.75rem;
-   }
-   .fs-500{
-       font-size: 1rem;
+   :root{
+       --fs-800: 15vw;
+       --fs-500: 7vw;
    }
    .fs-600, .fs-800, .fs-800 > span{
        text-align: center;
